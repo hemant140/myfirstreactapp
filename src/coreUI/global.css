@@ -1,0 +1,43 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+.mynav{
+    width: 100%;
+    height: 60px;
+    background-color: aquamarine;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    height: 60px;
+}
+ul li{
+    flex: 1;
+    line-height: 60px;
+}
+ul li a{
+    float: left;
+    height: 60px;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    color: rgb(23, 18, 18);
+    font-size: 2rem;
+}
+ul li a:hover
+{
+    color:rgb(170, 161, 161);
+    background-color: aqua;
+   
+}
+.rownew{
+    background-color: burlywood;
+    width: 100%;
+    height: 500px;
+}
+.constc{
+    color: red;
+    font-size: 2.5rem;
+}
